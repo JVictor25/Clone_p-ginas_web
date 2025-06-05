@@ -47,5 +47,11 @@ header {
     height: 85%;
 }
 
-
+.text-promo{
+    font-size: 27px;
+}
+.description{
+    font-size: 27px;
+    margin-top: 10px;
+}
 

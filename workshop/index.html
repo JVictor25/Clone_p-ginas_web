@@ -12,7 +12,7 @@
     <header>
         <h1>PARTICIPE DO WORKSHOP QUE VAI MUDAR O SEU NEGÓCIO</h1>
     </header>
-         <div class="image-container">
+        <div class="image-container">
             <div class="content">
                 <div class="text-promo">
                     <h3>GARANTA O SEU LUGAR NO WORKSHOP DO MAIOR ESPECIALISTA EM MARKETING DA ATUALIDADE</h3>
@@ -22,19 +22,43 @@
                 </div>
                 <div class="form">
                     <form action="https://example.com/submit" method="POST">
+                        <h4>Preencha o formulário abaixo para garantir sua vaga:</h4>
+                        <div class="form-group">
                         <input type="text" name="name" placeholder="Digite seu nome" required>
+                        </div>
+                        <div class="form-group">
                         <input type="email" name="email" placeholder="Digite seu e-mail" required>
-                        <button type="submit">Quero participar</button>
+                        </div>
+                        
+                        <div class="form-group">
+                        <select name="state" required>
+                            <option value="" disabled selected>Selecione seu estado</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="PR">Paraná</option>
+                            <option value="BA">Bahia</option>
+                            <option value="PE">Pernambuco</option> 
+                            </select> 
+                        </div>
+                        <div class="form-group">
+                            <button type="submit">INSCREVA-SE</button>
+                        </div>
                     </form>
+                </div>
             </div>
-         </div>
-            <h2>O QUE VOCÊ VAI APRENDER</h2>
-            <ul>
-                <li>Como criar uma estratégia de marketing digital eficaz</li>
-                <li>Técnicas de SEO para aumentar a visibilidade do seu site</li>
-                <li>Como utilizar as redes sociais para engajar seu público</li>
-                <li>Dicas práticas para melhorar suas vendas online</li>
-            </ul>
         </div>
+        <div class="palestrante-container" >
+            <div class="container-image-palestrante">
+                <img src="./images/face.jpg" class="palestrante-image" alt="Palestrante">
+            </div>
+            <div class="palestrante-info">
+                <h1>Sobre o Palestrante</h1>
+                <p>Carlos Fontana é conhecido por palestras  que analam a estrtura do markuting tradicioal.</p>
+                <p>Formado em Marjutung oeki Universidade XYZ e fundador da MarkUp, a empresa vencedora dos últimos % Pêmios MarketingBr.</p>
+            </div>
+        </div>
+
 </body>
 </html>

@@ -2,6 +2,7 @@ body{
  background-color: rgb(24, 24, 24);   
 }
 .profile-card{
+  background-color: blue;
   font-family: 'Arial', sans-serif;
   color: white;
   display: flex;
@@ -13,6 +14,9 @@ body{
     border-radius: 50%;
 }
 .social-links{
+    padding: 10px;
+    margin: 11px;
+    background-color: rgb(255, 0, 0);
     display: flex;
     flex-direction: column;
 }

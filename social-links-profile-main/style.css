@@ -1,0 +1,16 @@
+body{
+ background-color: rgb(24, 24, 24);   
+}
+.profile-card{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.image-profile{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}

@@ -48,6 +48,7 @@ h5{
     align-items: center;
 }
 .buttons-social{
+    text-align: center;
     background-color: rgb(52, 52, 52);
     color: white;
     border-style: none;

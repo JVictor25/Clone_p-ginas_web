@@ -63,3 +63,8 @@ h5{
 .buttons-social:hover{
   background-color: rgb(19, 166, 0);
 }
+.attribution{
+  color: rgba(255, 255, 255, 0.704);
+  font-size: 12px;
+  margin-top:100px;
+}

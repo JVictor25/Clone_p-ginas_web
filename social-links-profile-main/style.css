@@ -1,9 +1,28 @@
 body{
  background-color: rgb(0, 0, 0);   
 }
+h3{
+  margin-top: 5px;
+  font-size: 25px;
+  padding-top: 0px;
+}
+h4{
+  color: rgb(0, 207, 28);
+  font-size: 15px;
+  margin-top: -10px;
+  padding-top: 0px;
+}
+h5{
+  color: rgba(255, 255, 255, 0.704);
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 0px;
+  font-style: italic;
 
+}
 .profile-card{
-  width: 400px;
+  width: 500px;
   background-color: rgb(33, 33, 33);
   font-family: 'Arial', sans-serif;
   color: white;
